@@ -1,0 +1,56 @@
+body{
+    background-color: rgba(0, 0, 0, 0.445);
+    font-family: sans-serif;
+    color: white;
+}
+.Main-Div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Second-Div{
+    display: flex;
+
+}
+.Input-Filed{
+    font-size: 3vh;
+    background-color: black;
+    color: white;
+    padding: 3%;
+    border-radius: 2vh;
+}
+.Input-Filed::placeholder{
+    color: white;
+}
+.Add-Button{
+    background-color: white;
+    color: black;
+    font-size: 3vh;
+    padding: 1vh 5vh;
+    border-radius: 5vh;
+    border: none;
+    margin-left: 5%
+
+}
+.Add-Button:hover{
+    background-color: black;
+    color: white;
+    transition: 2s;
+    cursor: pointer;
+}
+.To-Do-List-Div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 50vh;
+    margin: 2%;
+}
+
+img {
+    height: 25px;
+}
+
+#Erro{
+    color: red;
+}
