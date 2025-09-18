@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roack Paper Scissors</title>
+    <link rel="stylesheet" href="./Rock Paper Scissors.css">
+</head>
+<body>
+<h1 class="TItle">Rock-Paper-Scissors</h1>
+
+<div class="cards">
+  <input type="radio" id="rock" name="choice" value="roack" onclick="Rock()">
+  <label for="rock" >
+    <h1>Rock</h1>
+    <img src="./img/Rock.png" alt="">
+  </label>
+
+  <input type="radio" id="paper" name="choice" value="paper" onclick="Paper()">
+  <label for="paper">
+    <h1>Paper</h1>
+    <img src="./img/Paper.png" alt="">
+  </label>
+
+  <input type="radio" id="scissors" name="choice" value="scissors" onclick="Scissors()">
+  <label for="scissors">
+    <h1>Scissors</h1>
+    <img src="./img/Scissors.png" alt="">
+  </label>
+
+</div>
+    <div id="RobotDiv" class="new-cards">
+
+    </div>
+    <h1 id="Output"></h1>
+<button class="submit-btn" onclick="Submit()">Submit</button>
+<h1 id="Erro"></h1>
+
+
+    <script src="./Rock Paper Scissors.js"></script>
+</body>
+</html>

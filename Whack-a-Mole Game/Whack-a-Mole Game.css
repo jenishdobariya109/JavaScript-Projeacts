@@ -1,0 +1,70 @@
+/* General styling */
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1, .Messge {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Game grid container */
+.Game-Div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px;
+    width: 60vh;
+    margin: 40px auto;
+}
+
+/* Common styling for game circles */
+.divGame,
+.divGameRandome {
+    height: 10vh;
+    width: 10vh;
+    border: 5px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* Empty circle */
+.divGame {
+    background-color: #ddd;
+}
+
+/* Active mole circle */
+.divGameRandome {
+    background-color: #ffecb3;
+    overflow: hidden;
+}
+
+/* Mole image */
+img {
+    height: 10vh;
+    width: 10vh;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+h1 {
+    white-space: nowrap;         /* Prevents line breaks */
+    text-align: center;          /* Centers text inside element */
+    display: block;              /* Block level for margin auto to work */
+    margin: 20px auto;           /* Centers horizontally */
+    font-size: 2rem;
+}

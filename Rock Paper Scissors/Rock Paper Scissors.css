@@ -1,0 +1,135 @@
+body{
+    font-family: sans-serif;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.TItle{
+    text-align: center;
+}
+.cards input[type="radio"] {
+  display: none;
+}
+
+.cards label {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  width: 180px;
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border 0.2s ease;
+}
+
+.cards label:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.cards input[type="radio"]:checked + label {
+  border: 3px solid #3498db;
+}
+
+.cards label h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.cards label img {
+  width: 100px;
+  height: auto;
+}
+
+.submit-btn {
+  display: block;
+  margin: 30px auto 0;
+  padding: 12px 30px;
+  background: #3498db;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.submit-btn:hover {
+  background: #2980b9;
+  transform: translateY(-3px);
+}
+.new-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.new-cards input[type="radio"] {
+  display: none;
+}
+
+.new-cards label {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  width: 180px;
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border 0.2s ease;
+}
+
+.new-cards label:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.new-cards input[type="radio"]:checked + label {
+  border: 3px solid #3498db;
+}
+
+.new-cards label h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.new-cards label img {
+  width: 100px;
+  height: auto;
+}
+
+.submit-btn {
+  display: block;
+  margin: 30px auto 0;
+  padding: 12px 30px;
+  background: #3498db;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.submit-btn:hover {
+  background: #2980b9;
+  transform: translateY(-3px);
+}
+
+#Output {
+    text-align: center;
+}
+#Erro{
+    color: red;
+    text-align: center;
+}
