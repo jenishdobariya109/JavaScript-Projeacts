@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.Main-Div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 97vh;
+    justify-content: center;
+    background-color: gray;
+}
+.Piano-button{
+    padding: 20vh 5vh;
+    background-color: white;
+    border: none;
+}
+.Piano-button1{
+    background-color: black;
+    padding: 20vh 5vh;
+
+}

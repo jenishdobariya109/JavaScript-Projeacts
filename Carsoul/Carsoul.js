@@ -36,7 +36,7 @@ document.getElementById("Prv").addEventListener("click",function (){
         img.src = data[count].imgurl
         
     }else {
-        count = length -1
+        count = 4
         count--
         img.src = data[count].imgurl
         console.log(count);
